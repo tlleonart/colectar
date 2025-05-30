@@ -12,8 +12,8 @@ export const VolunteerModal: FC = () => {
     <Modal
       open={isOpen}
       onOpenChange={setIsOpen}
-      title="Convertite en voluntario."
-      description="Decinos cómo te gustaría colaborar con nosotros."
+      title="Convertite en voluntario"
+      description="Decinos cómo te gustaría colaborar con nosotros"
     >
       <VolunteerForm />
     </Modal>
